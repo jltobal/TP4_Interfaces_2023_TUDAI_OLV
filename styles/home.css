@@ -20,3 +20,25 @@ body{
   .nav-item a:hover {
     color: white
   }
+
+  /*Plan de estudio DG*/
+  .planEstudios{
+    width: 60%;
+    margin-top: 2%;
+    padding-right: 55px;
+    padding-left: 55px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white; 
+  
+  }
+  .btn{
+  color: orange;
+  font-size:x-large;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  }
+  .card { 
+    background-color: antiquewhite;
+    margin-top: 1%;
+  }
