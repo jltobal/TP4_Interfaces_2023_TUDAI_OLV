@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    margin: 1px;
+}
+
+ul.nav a {
+    color: orange;
+    font-weight: bold;
+
+}
+
+.carreras,
+.noticias_div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.carreras {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.carrara_div,
+.noticia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.carreras img {
+    border-radius: 10px;
+    margin: 20px;
+    width: 500px;
+    height: 321px;
+}
+
+.carrer_btn {
+    display: block;
+    text-align: center;
+    width: 50%;
+    align-items: center;
+    background-color: #fa6400;
+    border-radius: .25rem;
+    color: #fff;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    justify-content: center;
+    position: relative;
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.carrer_btn:hover,
+.carrer_btn:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.carrer_btn:hover {
+    transform: translateY(-1px);
+}
+
+.carrer_btn:active {
+    background-color: #c85000;
+    box-shadow: rgba(0, 0, 0, .06) 0 2px 4px;
+    transform: translateY(0);
+}
+
+.noticias_div {
+    display: flex;
+}
+
+.noticia {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    /* Ajusta el porcentaje según sea necesario */
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.noticia img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.noticia h4 {
+    color: white;
+    width: 100%;
+    white-space: normal;
+    overflow: hidden;
+
+}
+
+.navbar-nav {
+    color: orange;
+    font-weight: bold;
+}
+
+.navbar-nav a {
+    color: orange;
+    font-weight: bold;
+}
+
+
+.custom-toggler {
+    background-color: orange;
+    border-color: orange;
+}
+
+.centrador {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rounded {
+    width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+
+    .carreras,
+    .noticias_div {
+        flex-direction: column;
+    }
+
+    .noticia {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}

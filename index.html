@@ -1,127 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Escuela de Artes Visuales</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/home2.css">
 </head>
+
 <body>
     <header>
-               
-        <ul class="nav justify-content-center">
-            <li class="nav-item">
-              <a class="nav-link" href="#">CARRERAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">NOTICIAS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">EVENTOS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">LA ESCUELA</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">INGRESAR</a>
-              </li>
-          </ul>
+        <div class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center">
+            <div class="d-none d-lg-block">
+                <img src="./img/Logo/logo_png24_ISO_NEG.png" alt="Logo" class="logo"
+                    style="width: 120px; height: 100%;">
+            </div>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
 
-        <div class="logo" ><img class="d-block w-100" src="./img/logo.png" alt="logo"></div>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto text-center">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">CARRERAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">NOTICIAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">EVENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">LA ESCUELA</a>
+                    </li>
+                </ul>
+
+                <div>
+                    <ul class="navbar-nav text-center">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#" style="color: white;">INGRESAR</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </header>
 
-    <div class="contenedor" id="contenedor_principal">
-        <div class="contenedor" id="contenedor_noticias">
-            <dic class="noticia"></dic>
-            <dic class="noticia"></dic>
-            <dic class="noticia"></dic>
+    <!--IMAGEN DE PORTADA-->
+    <div>
+        <img class="rounded d-flex" src="./img/Portada/1366x500.jpg" alt="Logo">
+    </div>
+
+    <!--DIV DE CARRERAS-->
+    <div class="carreras container mt-4">
+        <div class="carrera_div">
+            <img class="img_carrer" src="img/careers/DESIGN_1_700x450.jpg" alt="carrera de diseño grafico">
+            <a href="" class="carrer_btn">DISEÑO GRAFICO</a>
         </div>
+        <div class="carrera_div">
+            <img class="img_carrer" src="img/careers/ARTS_1_700x450.jpg" alt="carrera de profesorado en artes visuales">
+            <a href="" class="carrer_btn">PROFESORADO ARTES VISUALES</a>
+        </div>
+    </div>
 
+    <!--DIV DE NOTICIAS-->
+    <div class="noticias_div">
+        <div class="noticia">
+            <img src="img/news/Noticia_3.jpg" alt="">
+            <h4>Feliz día de la Patria para todos!</h4>
+        </div>
+        <div class="noticia">
+            <img src="img/news/Noticia_2.jpg" alt="">
+            <h4>Inauguracion de la Escuela de Artes Visuales</h4>
+        </div>
+        <div class="noticia">
+            <img src="img/news/Noticia_3.jpg" alt="">
+            <h4>Avance de obras de la Escuela de Artes Visuales Miguel A. Galgano</h4>
+        </div>
+    </div>
 
-        <div class="contenedor" id="contenedor_carreras">
-            <div class="carrera"></div>
-            <div class="carrera"></div>
-            <div class="carrera"></div>
+    <!-- uso de la plataforma https://woxo.tech/ -->
+    <div data-mc-src="251f3c0c-4353-4314-b13c-c02fe0d5527e#instagram"></div>
+    <script src="https://cdn2.woxo.tech/a.js#649f04f81bfb7c834b0e105a" async data-usrc>
+    </script>
+
+    <!--CAROUSEL-->
+    <div class="centrador">
+        <div class="swiffy-slider">
+            <ul class="slider-container">
+                <li><img src="img/slides/slide_avo_1.jpg" style="max-width: 100%;height: auto;">
+                </li>
+                <li><img src="img/slides/slide_avo_6.jpg" style="max-width: 100%;height: auto;">
+                </li>
+                <li><img src="img/slides/slide_dg_1.jpg" style="max-width: 100%;height: auto;">
+                </li>
+                <li><img src="img/slides/slide_dg_3.jpg" style="max-width: 100%;height: auto;">
+                </li>
+            </ul>
+
+            <button type="button" class="slider-nav"></button>
+            <button type="button" class="slider-nav slider-nav-next"></button>
+
+            <div class="slider-indicators">
+                <button class="active"></button>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
         </div>
     </div>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
-
-        <!-- Slides -->
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100"  src="./img/noticia01.png"  alt="noticia1">
-            <div class="carousel-caption">
-              <h3>Importantes avances en la obra del edificio para la Escuela de Artes Visuales</h3>
-              <p>En la mañana de este lunes, el intendente Ezequiel Galli visitó las instalaciones del edificio emplazado en la Escuela Agropecuaria, donde funcionará la Escuela de Artes Visuales “Miguel Ángel Galgano”.
-    
-                En esta ocasión fue acompañado por el secretario de Mantenimiento y Obras Públicas Julio Ferraro.
-                
-                Cabe destacar que la obra presenta un grado de avance del 75%. Está a cargo de la empresa José Carlos Balzi, firma que resultó adjudicataria por licitación.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src="./img/noticia02.png" alt="noticia2">
-            <div class="carousel-caption">
-              <h3>Toda la comunidad de Artes Visuales tiene una expectativa muy grande</h3>
-           <p>Finalmente, se concretó la fecha de inauguración del nuevo edificio para la Escuela de Artes Visuales “Miguel Ángel Galgano”, tras años de espera y reclamos por parte la institución y la comunidad educativa.
-            El 13 de marzo, la Escuela de Artes Visuales podrá comenzar una nueva etapa con un espacio propio ubicado en el predio de la Escuela Agropecuaria, donde podrán transitar las diferentes carreras ya sin problemas edilicios y con un nuevo récord de inscriptos.</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100"  src="./img/noticia03.png"  alt="noticia3">
-            <div class="carousel-caption">
-              <h3>Inscripciones Abiertas</h3>
-              <p>Los interesados en arrancar una carrera en 2023 podrán completar el formulario de preinscripción entre el 3 y el 31 de Marzo, creando un usuario en el sistema para luego formalizar el proceso de matriculación.</p>
-            </div>
-          </div>
-        </div>
-    
-        <!-- Controles -->
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"></span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden"></span>
-        </a>
-      </div>
-    
-      <div class="container mt-4">
-        <div class="row justify-content-center">
-          <div class="col-6 text-center position-relative">
-            <img src="./img/carrera01.png" alt="Imagen 1">
-            <a class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x">Diseño Gráfico</a>
-          </div>
-          <div class="col-6 text-center position-relative">
-            <img src="./img/carrera02.png" alt="Imagen 1">
-            <a href="#" class="btn btn-outline-warning position-absolute bottom-0 start-50 translate-middle-x">Artes Visuales</a>
-          </div>
-        </div>
-      </div>
-
-      <footer class="footer mt-auto py-3">
-        <div class="container text-center">
-          <span class="text-muted">@Escuela de Artes Visuales.</span>
-        </div>
-      </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous"
+    defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/css/swiffy-slider.min.css" rel="stylesheet"
+    crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="carousel.js"></script>
+
 </html>
