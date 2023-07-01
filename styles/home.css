@@ -42,3 +42,26 @@ body{
     background-color: antiquewhite;
     margin-top: 1%;
   }
+
+  /*Formulario*/
+  
+.formulario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.formulario h1 {
+  color: orange;
+}
+
+.formulario button {
+  margin-top: 5%;
+}
+
+.btn-form {
+  background-color: orange;
+  color: white;
+}
