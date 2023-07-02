@@ -1,0 +1,66 @@
+.dg_container_1 {
+    position: relative;
+}
+
+.dg_container_1 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dg_txt_c1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: black;
+    width: 30%;
+    height: 100%;
+    margin-right: 2em;
+    /* Ajusta el ancho del div de texto según sea necesario */
+}
+
+.dg_txt_c1 h3,
+.dg_txt_c1 p {
+    margin: 0;
+}
+
+.dg_txt_c2 {
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: -50px;
+}
+
+.dg_container_2 img {
+    width: 100%;
+    height: auto;
+}
+
+.dg_container_3 {
+    position: relative;
+}
+
+.dg_container_3 img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.dg_txt_c3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    color: black;
+    width: 45%;
+    height: 100%;
+    margin-left: 5px;
+    /* Ajusta el ancho del div de texto según sea necesario */
+}
+
+.dg_txt_c3 h3,
+.dg_txt_c3 p {
+    margin: 0;
+}
