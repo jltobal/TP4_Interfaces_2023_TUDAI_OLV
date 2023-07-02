@@ -226,3 +226,15 @@ footer {
     padding: 3px;
     position: relative;
 }
+
+.noticia_comp_img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.noticia_completa P,
+.noticia_completa H2 {
+    color: white;
+    margin: 10px;
+}
