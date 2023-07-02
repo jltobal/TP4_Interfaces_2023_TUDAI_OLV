@@ -117,6 +117,9 @@ ul.nav a {
     font-weight: bold;
 }
 
+.nav-item a:hover {
+    color: white
+  }
 
 .custom-toggler {
     background-color: orange;
@@ -146,3 +149,66 @@ ul.nav a {
         margin-left: 10%;
     }
 }
+
+
+.planEstudios, .laEscuela, .calendario{
+    width: 60%;
+    margin-top: 5%;
+    padding-right: 55px;
+    padding-left: 55px;
+    margin-right: auto;
+    margin-left: auto;
+    color: white; 
+  
+  }
+  .btn{
+    color: orange;
+    font-size:x-large;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    }
+    .card { 
+      background-color: antiquewhite;
+      margin-top: 2%;
+    }
+  
+
+    /*Noticas*/
+.noticias p {
+    color: white;
+    text-align: justify;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  
+  .noticias h2 {
+    color: white;
+    margin-top: 2%;
+  }
+.noticias_div a{
+    color: white;
+    text-decoration: none;
+}
+
+  /*Formulario*/
+
+  .formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: white;
+  }
+  
+  .formulario h1 {
+    color: orange;
+  }
+  
+  .formulario button {
+    margin-top: 5%;
+  }
+  
+  .btn-form {
+    background-color: orange;
+    color: white;
+  }

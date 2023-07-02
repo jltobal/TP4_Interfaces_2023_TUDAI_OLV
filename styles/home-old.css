@@ -17,14 +17,15 @@ body{
    font-weight: bold;
    
   }
+  
   .nav-item a:hover {
     color: white
   }
 
   /*Plan de estudio DG*/
-  .planEstudios{
+  .planEstudios, .laEscuela, .calendario{
     width: 60%;
-    margin-top: 2%;
+    margin-top: 5%;
     padding-right: 55px;
     padding-left: 55px;
     margin-right: auto;
@@ -40,28 +41,12 @@ body{
   }
   .card { 
     background-color: antiquewhite;
-    margin-top: 1%;
+    margin-top: 2%;
   }
 
-  /*Formulario*/
-  
-.formulario {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  color: white;
-}
-
-.formulario h1 {
-  color: orange;
-}
-
-.formulario button {
+.laEscuela .card {
   margin-top: 5%;
 }
 
-.btn-form {
-  background-color: orange;
-  color: white;
-}
+
+
