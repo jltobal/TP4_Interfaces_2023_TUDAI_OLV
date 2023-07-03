@@ -233,8 +233,33 @@ footer {
     align-items: center;
 }
 
-.noticia_completa P,
-.noticia_completa H2 {
-    color: white;
-    margin: 10px;
-}
+
+
+/*Busqueda*/
+#careerList {
+    display: none;
+    list-style-type: none;  
+    flex-direction: column;
+    padding-left: 0%;
+  }
+
+  .career-btn {
+    background-color: black;   
+    color: #fff;   
+    padding: 3px;   
+    background: none;
+    border: none;
+    padding: 0;   
+    cursor: pointer;
+  }
+
+  .busqueda {
+    display: flex;
+   flex-direction: column;
+    align-items:center;
+    
+  }
+
+  .search-form {
+    width: 33%;
+  }
