@@ -25,7 +25,7 @@ function filterCareers() {
     if (selectedCareer === 'Diseño Gráfico') {
       window.location.href = 'diseño.html';
     } else if (selectedCareer === 'Profesorado de Artes Visuales') {
-      window.location.href = 'diseño.html';
+      window.location.href = 'profesorado.html';
     } 
   }
 

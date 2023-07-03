@@ -263,3 +263,8 @@ footer {
   .search-form {
     width: 33%;
   }
+
+  .planEstudios a{
+    color: white;
+    text-decoration: none;
+  }
