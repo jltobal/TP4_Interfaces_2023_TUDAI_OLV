@@ -49,7 +49,7 @@ $(document).ready(function() {
   
       // Verificar si el correo ingresado es "admin@artesvisuales.com"
       if (email === "admin@artesvisuales.com") {
-        window.location.href = "./index.html"; // Redirigir a la página index.html
+        window.location.href = "./index_admin.html"; // Redirigir a la página index.html
         return;
       }
   
