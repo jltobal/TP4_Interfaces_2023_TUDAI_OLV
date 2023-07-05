@@ -64,3 +64,15 @@
 .dg_txt_c3 p {
     margin: 0;
 }
+
+.dg_txt_c4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    color: black;
+    width: 65%;
+    height: 100%;
+    margin-right: 2em;
+    
+}

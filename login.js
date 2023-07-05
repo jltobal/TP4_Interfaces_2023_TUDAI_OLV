@@ -49,13 +49,13 @@ $(document).ready(function() {
   
       // Verificar si el correo ingresado es "admin@artesvisuales.com"
       if (email === "admin@artesvisuales.com") {
-        window.location.href = "./index_admin.html"; // Redirigir a la página index.html
+        window.location.href = "./admin.html"; // Redirigir a la página index.html
         return;
       }
   
       // Verificar si el correo ingresado es "alumno@artesvisuales.com"
       if (email === "alumno@artesvisuales.com") {
-        window.location.href = "./otra_pagina.html"; // Redirigir a otra_pagina.html
+        window.location.href = "./user.html"; // Redirigir a otra_pagina.html
         return;
       }
   

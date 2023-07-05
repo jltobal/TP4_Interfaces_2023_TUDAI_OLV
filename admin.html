@@ -43,6 +43,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="./noticia01.html">NOTICIAS</a>
                     </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="usuarioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @Administrar
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="usuarioDropdown">
+                            <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -62,40 +70,40 @@
             <form  class="news_form" action="#" method="POST" enctype="multipart/form-data">
                 <label for="imagen">Agregar Imagen:</label>
                 <input type="file" id="imagen" name="imagen" accept="image/*">
-        
+                <p></p>
                 <label for="titulo">Agregar Título:</label>
-                <input type="text" id="titulo" name="titulo">
-        
+                <input class="form-control" type="text" id="titulo" name="titulo">
+                <p></p>
                 <label for="texto">Agregar Texto:</label>
-                <textarea id="texto" name="texto"></textarea>
-        
-                 <input btn btn-form form-control type="submit" value="Enviar">
+                <textarea class="form-control" id="texto" name="texto"></textarea> 
+                <p></p>       
+                <input btn btn-form form-control type="submit" value="Enviar">
             </form>
         </div>
     </div>
-
+<p></p>
     <div class="alta_usuario">
         <h1 class="news_title">ALTA DE USUARIO</h1>
         <div class="centrar_formulario">
-            <form action="#" method="POST">
+            <form  action="#" method="POST">
                 <label for="dni">DNI:</label>
-                <input type="number" id="dni" name="dni" required>
-            
+                <input class="form-control" type="number" id="dni" name="dni" required>
+                <p></p>
                 <label for="nombre">Nombre completo:</label>
-                <input type="text" id="nombre" name="nombre" required>
-            
-                <label for="area">Carrera</label>
-                <select id="area" name="area" required>
+                <input class="form-control" type="text" id="nombre" name="nombre" required>
+                <p></p>
+                <label for="area">Carrera:</label>
+                <select class="form-control" id="area" name="area" required>
                   <option value="Artes Visuales">Artes Visuales</option>
                   <option value="Diseño Grafico">Diseño Gráfico</option>
                 </select>
-            
-                <label for="correo">Correo:</label>
-                <input type="email" id="correo" name="correo" required><p>@artesvisuales.com</p>
-            
+                <p></p>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" class="form-control" required value="@artesvisuales.com" >
+                <p></p>
                 <label for="contrasena">Contraseña:</label>
-                <input type="password" id="contrasena" name="contrasena" required>
-            
+                <input class="form-control" type="password" id="contrasena" name="contrasena" required>
+                <p></p>
                 <input type="submit" value="Registrar">
               </form>
         </div>
@@ -119,6 +127,9 @@
 
 </footer>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+
 
 
 </html>

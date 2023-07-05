@@ -159,7 +159,6 @@ footer {
     }
 }
 
-
 .planEstudios,
 .laEscuela,
 .calendario {
@@ -288,3 +287,107 @@ footer {
 #collapsehistoria p{
     text-align: justify;
 }
+
+.form-group {
+    margin-top: 2%;
+}
+
+
+/*NOTICIAS*/
+@media (max-width: 767px) {
+
+    .noticias_div01 {
+        flex-direction: column;
+    }
+
+    .noticia01 {
+        max-width: 80%;
+        margin-left: 10%;
+    }
+}
+
+
+.noticias_div01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.noticia01 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 30%;
+    /* Ajusta el porcentaje según sea necesario */
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+    align-self: flex-start;
+}
+
+.noticia01 img {
+    border-radius: 10px;
+    max-width: 70%;
+    height: auto;
+}
+
+.noticia01 h6 {
+    color: white;
+    width: 90%;
+    white-space: normal;
+    overflow: hidden;
+
+}
+
+.noticias_div01 a {
+    color: white;
+    text-decoration: none;
+}
+
+hr {
+    color: white;
+    width: 70%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.noticia01_h3 {
+    margin-left: 2%;;
+}
+
+.container-fluid {
+    margin-top: 2%;
+    margin-left: 2%;
+    
+
+}
+.row a{
+
+    font-weight: bold;
+}
+
+.list-group a{
+    font-weight: normal;
+}
+
+#formulario {
+    display: none;
+}
+
+.dropdown-menu{
+   background-color: black;     
+}
+.dropdown-menu a{
+  color:white;
+}
+.dropdown a:hover{
+    background-color: black;
+}
+
+.alta_usuario label{
+    margin-bottom: 0%;
+}
+#correo {
+  text-align: end;
+}
+

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Escuela de Artes Visuales</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles/home2.css">
+    <link rel="stylesheet" href="styles/admin.css">
+</head>
+
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center">
+            <div class="d-none d-lg-block">
+                <a href="index.html">
+
+                    <img src="./img/Logo/logo_png24_NEG.png" alt="Logo" class="logo"
+                        style="width: 120px; height: 100%;">
+                </a>
+            </div>
+            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto text-center">
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">INICIO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./escuela.html">LA ESCUELA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./planEstudioDG.html">CARRERAS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./eventos.html">EVENTOS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./noticia01.html">NOTICIAS</a>
+                    </li>                   
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" style="color: white;" href="#" id="usuarioDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            @User
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="usuarioDropdown">
+                            <li><a class="dropdown-item" href="#">Cerrar sesión</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-3">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action" onclick="mostrarFormulario()"><h5>Inscripciones a materias</h5></a>
+                    <a href="#" class="list-group-item list-group-item-action"><h5>Inscripciones a exámenes</h5></a>
+                    <div class="list-group">
+                        <a href="#reportesSubmenu" class="list-group-item list-group-item-action"
+                            data-bs-toggle="collapse"><h5>Reportes</h5></a>
+                        <div class="collapse" id="reportesSubmenu">
+                            <a href="#" class="list-group-item list-group-item-action">Agenda</a>
+                            <a href="#" class="list-group-item list-group-item-action">Historia académica</a>
+                            <a href="#" class="list-group-item list-group-item-action">Inasistencias</a>
+                        </div>
+                   
+                    <a href="#tramiSubmenu" class="list-group-item list-group-item-action"  data-bs-toggle="collapse"><h5>Trámites</h5></a>
+                    <div class="collapse" id="tramiSubmenu">
+                        <a href="#" class="list-group-item list-group-item-action">Orientación</a>
+                        <a href="#" class="list-group-item list-group-item-action">Constancias</a>
+                        <a href="#" class="list-group-item list-group-item-action">Boleto estudiantil</a>
+                    </div>
+                    <a href="#" class="list-group-item list-group-item-action"><h5>Datos personales</h5></a>
+                </div>
+                </div>
+            </div>
+            <div class="col-9">
+
+
+                <div class="altas_carrera">
+                    <div >
+                        <form action="#" method="POST" id="formulario">
+                            <label for="area">Carrera:</label>
+                            <select class="form-control" id="area" name="area" required>
+                                <option value="Artes Visuales">Artes Visuales</option>
+                                <option value="Diseño Grafico">Diseño Gráfico</option>
+                            </select>
+                         
+                            <p></p>
+                            <label for="area">Materia:</label>
+                            <select class="form-control" id="area" name="area" required>
+                                <option value="talle">Taller de Diseño I</option>
+                                <option value="tipografía1">Tipografía I</option>
+                                <option value="dibujo">Dibujo</option>
+                                <option value="historia">Historia del Arte y el Diseño</option>
+                            </select>
+                            <p></p>
+
+                            <input type="submit" value="Anotarse">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0-beta1/js/bootstrap.min.js"></script>
+<script src="./user.js"></script>
+
+
+
+
+
+
+
+
+</html>
