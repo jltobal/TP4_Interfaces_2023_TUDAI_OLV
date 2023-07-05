@@ -275,3 +275,10 @@ footer {
     color: orange;
     font-size: x-large;
   }
+
+#collapserequisitos ul {
+    text-align: justify;
+}
+#collapsehistoria p{
+    text-align: justify;
+}
