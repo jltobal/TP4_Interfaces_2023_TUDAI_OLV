@@ -14,6 +14,15 @@ ul.nav a {
 
 }
 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fa6400;
+    padding: 3px;
+    position: relative;
+}
+
 .carreras,
 .noticias_div {
     display: flex;
@@ -218,14 +227,7 @@ ul.nav a {
     color: white;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #fa6400;
-    padding: 3px;
-    position: relative;
-}
+
 
 .noticia_comp_img {
     display: flex;
@@ -275,3 +277,9 @@ footer {
     color: orange;
     font-size: x-large;
   }
+
+  #social_icon{
+    margin-left: 10px;
+  }
+
+  
