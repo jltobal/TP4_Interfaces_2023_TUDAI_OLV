@@ -277,3 +277,14 @@ footer {
     color: orange;
     font-size: x-large;
   }
+
+  #social_icon{
+    margin-left: 10px;
+  }
+
+  #collapserequisitos ul {
+    text-align: justify;
+}
+#collapsehistoria p{
+    text-align: justify;
+}
