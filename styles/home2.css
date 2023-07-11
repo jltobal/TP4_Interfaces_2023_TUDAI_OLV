@@ -24,20 +24,28 @@ footer {
 }
 
 .carreras,
-.noticias_div {
+.noticias_div,
+.centrador_noticias {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 40px;
 }
+.centrador_noticias{
+    width: 64%;
+}
+
+
 
 .carreras {
     width: 100%;
     height: auto;
     text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
 }
 
-.carrara_div,
 .noticia {
     display: flex;
     flex-direction: column;
@@ -89,13 +97,16 @@ footer {
     display: flex;
 }
 
+#portada_div, #div_woxo{
+    margin-bottom: 40px;
+}
+
 .noticia {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     max-width: 30%;
-    /* Ajusta el porcentaje según sea necesario */
     box-sizing: border-box;
     padding: 10px;
     text-align: center;
@@ -140,6 +151,7 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
 
 .rounded {
     width: 100%;
