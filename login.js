@@ -1,24 +1,3 @@
-/*
-$(document).ready(function() {
-    $('#email').on('input', function() {
-      var email = $(this).val();
-      var isValid = validateEmail(email);
-      
-      $(this).removeClass('is-valid is-invalid');
-      
-      if (isValid) {
-        $(this).addClass('is-valid');
-      } else {
-        $(this).addClass('is-invalid');
-      }
-    });
-  });
-  
-  function validateEmail(email) {
-    var re = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-    return re.test(email);
-  }
-  */
 
   document.addEventListener("DOMContentLoaded", function() {
     var form = document.querySelector(".formulario form");
@@ -60,9 +39,25 @@ $(document).ready(function() {
       }
   
       // Mostrar mensaje de error si el correo no es válido
-      errorMensaje.textContent = "El correo no coincide con un usuario registrado";
+      errorMensaje.textContent = "Usuario o contraseña inválida.";
     });
   });
   
+  var emailInput = document.getElementById("email");
+  var emailError = document.getElementById("emailError");
   
+  emailInput.addEventListener("input", function() {
+    var email = emailInput.value.trim();
+    var emailRegex = /^\S+@\S+\.\S+$/;
+  
+    if (emailRegex.test(email)) {
+      emailInput.classList.remove("is-invalid");
+      emailError.style.display = "none";
+    } else {
+      emailInput.classList.add("is-invalid");
+      emailError.style.display = "block";
+    }
+  });
+  
+
   
