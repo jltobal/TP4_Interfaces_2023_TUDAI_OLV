@@ -297,6 +297,10 @@ ul.nav a {
     padding: 3px;
 }
 
+#img_not_1{
+    width: 62%;
+    height: auto;
+}
 
   footer a {
     color: orange;
